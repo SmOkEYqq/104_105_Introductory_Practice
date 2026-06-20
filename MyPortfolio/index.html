@@ -18,6 +18,7 @@
             <ul class="nav-list">
                 <li><a href="#about" class="nav-link">Обо мне</a></li>
                 <li><a href="#projects" class="nav-link">Проекты</a></li>
+                <li><a href="#contact" class="nav-link">Контакты</a></li>
                 <li><a href="#hobby" class="nav-link">Хобби</a></li>
             </ul>
         </nav>
@@ -71,6 +72,35 @@
                     </article>
 
                 </div>
+            </section>
+
+            <section id="contact" class="contact-section">
+                <h2 class="section-title">Связаться со мной</h2>
+                <form action="#" method="POST" class="contact-form">
+                    
+                    <div class="form-group">
+                        <label class="form-label" for="contact-name">Ваше имя</label>
+                        <input class="form-input" type="text" id="contact-name" name="name" required placeholder="Введите ваше имя">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label" for="contact-email">Электронная почта</label>
+                        <input class="form-input" type="email" id="contact-email" name="email" required placeholder="example@domain.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="contact-date">Удобная дата для связи</label>
+                        <input class="form-input" type="date" id="contact-date" name="preferred-date">
+                    </div>
+
+                    <div class="form-group checkbox-group">
+                        <input class="form-checkbox" type="checkbox" id="contact-agreement" name="agreement" required>
+                        <label class="form-checkbox-label" for="contact-agreement">Я согласен на обработку персональных данных</label>
+                    </div>
+
+                    <button type="submit" class="submit-button">Отправить сообщение</button>
+                    
+                </form>
             </section>
 
         </div>
